@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Sisira Puppala - Infrastructure Automation Engineer specializing in cloud infrastructure, platform engineering, and site reliability. Building scalable, resilient systems with AWS, Azure, Kubernetes.">
+    <meta name="keywords"
+        content="Infrastructure Engineer, Cloud Engineer, Platform Engineer, SRE, DevOps, AWS, Azure, Kubernetes, Linux, Python">
+    <meta name="author" content="Sisira Puppala">
+    <meta property="og:title" content="Sisira Puppala | Infrastructure Automation Engineer">
+    <meta property="og:description" content="Engineering reliable cloud infrastructure at scale.">
+    <title>Sisira Puppala | Infrastructure Automation Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="nav" id="nav">
+        <div class="nav-container">
+            <a href="#" class="nav-logo"><span class="logo-bracket">&lt;</span>Sisira<span
+                    class="logo-bracket">/&gt;</span></a>
+            <div class="nav-links">
+                <a href="#about" class="nav-link"><span class="nav-number">01.</span> About</a>
+                <a href="#experience" class="nav-link"><span class="nav-number">02.</span> Experience</a>
+                <a href="#skills" class="nav-link"><span class="nav-number">03.</span> Skills</a>
+                <a href="#projects" class="nav-link"><span class="nav-number">04.</span> Projects</a>
+                <a href="#contact" class="nav-link nav-cta">Get In Touch</a>
+            </div>
+            <button class="nav-toggle" id="nav-toggle"
+                aria-label="Toggle navigation"><span></span><span></span><span></span></button>
+        </div>
+    </nav>
+
+    <div class="mobile-menu" id="mobile-menu">
+        <div class="mobile-menu-links">
+            <a href="#about" class="mobile-link"><span class="nav-number">01.</span> About</a>
+            <a href="#experience" class="mobile-link"><span class="nav-number">02.</span> Experience</a>
+            <a href="#skills" class="mobile-link"><span class="nav-number">03.</span> Skills</a>
+            <a href="#projects" class="mobile-link"><span class="nav-number">04.</span> Projects</a>
+            <a href="#contact" class="mobile-cta">Get In Touch</a>
+        </div>
+    </div>
+
+    <main>
+        <section class="hero" id="hero">
+            <div class="hero-background">
+                <div class="hero-gradient"></div>
+                <div class="hero-grid"></div>
+            </div>
+            <div class="hero-content">
+                <p class="hero-greeting animate-in">Hello, my name is</p>
+                <h1 class="hero-name animate-in delay-1">Sisira Puppala.</h1>
+                <h2 class="hero-title animate-in delay-2">I engineer reliable cloud infrastructure at scale.</h2>
+                <p class="hero-description animate-in delay-3">Infrastructure Automation Engineer transforming complex
+                    enterprise systems into elegant, automated solutions. I specialize in building resilient platforms,
+                    optimizing cloud environments, and driving operational excellence.</p>
+                <div class="hero-cta animate-in delay-4">
+                    <a href="#experience" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Let's Connect</a>
+                </div>
+                <div class="hero-stats animate-in delay-5">
+                    <div class="stat"><span class="stat-number">3+</span><span class="stat-label">Years
+                            Experience</span></div>
+                    <div class="stat"><span class="stat-number">200+</span><span class="stat-label">Servers
+                            Managed</span></div>
+                    <div class="stat"><span class="stat-number">99.9%</span><span class="stat-label">Uptime
+                            Achieved</span></div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div><span>Scroll to explore</span>
+            </div>
+        </section>
+
+        <section class="section about" id="about">
+            <div class="container">
+                <h2 class="section-title"><span class="section-number">01.</span> About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>I'm an <strong>Analyst</strong> with a passion for building
+                            systems that don't just work—they scale, self-heal, and empower teams to ship faster. My
+                            journey began managing enterprise Cloud,Linux environments at Oracle and DXC Technology,
+                            where I discovered that the best infrastructure is the kind you rarely have to think about.
+                        </p>
+                        <p>Today, I bridge the gap between traditional infrastructure and modern cloud-native practices.
+                            I've automated away thousands of hours of manual operations, architected resilient platforms
+                            that handle production workloads for enterprise clients, and led incident response for
+                            mission-critical systems.</p>
+                        <p>My approach combines <strong>deep systems expertise</strong> with an <strong>automation-first
+                                mindset</strong>. Whether it's writing Python scripts that eliminate toil, designing
+                            Kubernetes deployments, or optimizing database performance, I focus on solutions that
+                            multiply team productivity and system reliability.</p>
+                        <p class="about-highlight"><span class="highlight-icon">→</span> Currently at
+                            <strong>Oracle</strong>, engineering infrastructure solutions that power enterprise
+                            applications serving millions of users.
+                        </p>
+                    </div>
+                    <div class="about-image">
+                        <div class="image-wrapper">
+                            <div class="image-placeholder"><span class="initials">SP</span></div>
+                            <div class="image-border"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section experience" id="experience">
+            <div class="container">
+                <h2 class="section-title"><span class="section-number">02.</span> Where I've Worked</h2>
+                <div class="experience-container">
+                    <div class="experience-tabs">
+                        <button class="tab-btn active" data-tab="oracle">Oracle</button>
+                        <button class="tab-btn" data-tab="dxc">DXC Technology</button>
+                        <button class="tab-btn" data-tab="oryx">Oryx Cloud</button>
+                    </div>
+                    <div class="experience-content">
+                        <div class="experience-panel active" id="oracle">
+                            <div class="experience-header">
+                                <h3 class="experience-role">Analyst</h3><span class="experience-company">@ Oracle</span>
+                            </div>
+                            <p class="experience-duration">December 2025 — Present</p>
+                            <ul class="experience-list">
+                                <li><span class="list-icon">▹</span>Automated critical infrastructure operations using
+                                    Python and Bash, reducing manual intervention by 75% and enabling 24/7 system
+                                    availability across distributed Unix/Linux environments</li>
+                                <li><span class="list-icon">▹</span>Developed and optimized complex SQL queries for
+                                    production diagnostics and performance monitoring, identifying bottlenecks that
+                                    improved query execution time by 40%</li>
+                                <li><span class="list-icon">▹</span>Managed mission-critical enterprise infrastructure
+                                    supporting high-availability applications, maintaining 99.9% uptime SLA for
+                                    production workloads</li>
+                                <li><span class="list-icon">▹</span>Led incident response and root cause analysis for
+                                    P1/P2 incidents, implementing preventive measures that reduced recurring issues by
+                                    60%</li>
+                                <li><span class="list-icon">▹</span>Partnered with engineering teams to optimize
+                                    platform performance, implementing monitoring solutions and automated alerting
+                                    systems</li>
+                            </ul>
+                            <div class="experience-tech">
+                                <span>Unix</span><span>Linux</span><span>Python</span><span>SQL</span><span>Bash</span><span>Oracle
+                                    DB</span>
+                            </div>
+                        </div>
+                        <div class="experience-panel" id="dxc">
+                            <div class="experience-header">
+                                <h3 class="experience-role">Analyst II — Infrastructure Services</h3><span
+                                    class="experience-company">@ DXC Technology</span>
+                            </div>
+                            <p class="experience-duration">July 2022 — December 2025</p>
+                            <ul class="experience-list">
+                                <li><span class="list-icon">▹</span>Architected and executed end-to-end server lifecycle
+                                    management for 200+ enterprise Linux/Unix servers, from provisioning to
+                                    decommissioning, achieving zero unplanned downtime</li>
+                                <li><span class="list-icon">▹</span>Led large-scale infrastructure migration projects,
+                                    successfully transitioning legacy workloads to modern virtualized environments with
+                                    VMware vSphere, reducing hardware costs by 35%</li>
+                                <li><span class="list-icon">▹</span>Spearheaded security remediation initiatives,
+                                    patching critical vulnerabilities across the server fleet within aggressive SLA
+                                    timelines</li>
+                                <li><span class="list-icon">▹</span>Developed automation frameworks using Python and
+                                    Bash that eliminated 80% of repetitive administrative tasks</li>
+                                <li><span class="list-icon">▹</span>Designed and implemented monitoring and alerting
+                                    solutions using Elasticsearch, enabling proactive issue detection and reducing MTTR
+                                    by 50%</li>
+                                <li><span class="list-icon">▹</span>Promoted from Analyst I to Analyst II within 18
+                                    months based on exceptional performance and demonstrated technical leadership</li>
+                            </ul>
+                            <div class="experience-tech">
+                                <span>Linux</span><span>Unix</span><span>VMware</span><span>Python</span><span>Bash</span><span>Elasticsearch</span><span>MySQL</span>
+                            </div>
+                        </div>
+                        <div class="experience-panel" id="oryx">
+                            <div class="experience-header">
+                                <h3 class="experience-role">DevOps Engineer Intern</h3><span
+                                    class="experience-company">@ Oryx Cloud</span>
+                            </div>
+                            <p class="experience-duration">April 2022 — June 2022</p>
+                            <ul class="experience-list">
+                                <li><span class="list-icon">▹</span>Designed and implemented CI/CD pipelines using
+                                    Jenkins, automating build, test, and deployment workflows that increased deployment
+                                    frequency by 300%</li>
+                                <li><span class="list-icon">▹</span>Gained hands-on experience with cloud infrastructure
+                                    on AWS, including EC2, S3, and VPC configuration</li>
+                                <li><span class="list-icon">▹</span>Containerized applications using Docker,
+                                    implementing consistent development environments</li>
+                                <li><span class="list-icon">▹</span>Collaborated with development teams to implement
+                                    GitOps practices, establishing version control workflows</li>
+                                <li><span class="list-icon">▹</span>Automated infrastructure provisioning using shell
+                                    scripts, reducing environment setup time from hours to minutes</li>
+                            </ul>
+                            <div class="experience-tech">
+                                <span>Jenkins</span><span>Docker</span><span>AWS</span><span>Git</span><span>Linux</span><span>Bash</span><span>CI/CD</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section skills" id="skills">
+            <div class="container">
+                <h2 class="section-title"><span class="section-number">03.</span> Technical Arsenal</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <div class="skill-category-header">
+                            <div class="skill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
+                                </svg></div>
+                            <h3>Cloud Platforms</h3>
+                        </div>
+                        <div class="skill-tags"><span class="skill-tag">AWS</span><span
+                                class="skill-tag">Azure</span><span class="skill-tag">GCP</span><span
+                                class="skill-tag">Oracle Cloud</span></div>
+                    </div>
+                    <div class="skill-category">
+                        <div class="skill-category-header">
+                            <div class="skill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <rect x="2" y="3" width="20" height="14" rx="2" />
+                                    <line x1="8" y1="21" x2="16" y2="21" />
+                                    <line x1="12" y1="17" x2="12" y2="21" />
+                                </svg></div>
+                            <h3>Infrastructure</h3>
+                        </div>
+                        <div class="skill-tags"><span class="skill-tag">Linux</span><span
+                                class="skill-tag">Unix</span><span class="skill-tag">VMware</span><span
+                                class="skill-tag">Windows Server</span></div>
+                    </div>
+                    <div class="skill-category">
+                        <div class="skill-category-header">
+                            <div class="skill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <polyline points="16 18 22 12 16 6" />
+                                    <polyline points="8 6 2 12 8 18" />
+                                </svg></div>
+                            <h3>Automation</h3>
+                        </div>
+                        <div class="skill-tags"><span class="skill-tag">Python</span><span
+                                class="skill-tag">Bash</span><span class="skill-tag">PowerShell</span><span
+                                class="skill-tag">Ansible</span></div>
+                    </div>
+                    <div class="skill-category">
+                        <div class="skill-category-header">
+                            <div class="skill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path
+                                        d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z" />
+                                </svg></div>
+                            <h3>Containers</h3>
+                        </div>
+                        <div class="skill-tags"><span class="skill-tag">Docker</span><span
+                                class="skill-tag">Kubernetes</span><span class="skill-tag">Helm</span><span
+                                class="skill-tag">Podman</span></div>
+                    </div>
+                    <div class="skill-category">
+                        <div class="skill-category-header">
+                            <div class="skill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <ellipse cx="12" cy="5" rx="9" ry="3" />
+                                    <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3" />
+                                    <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5" />
+                                </svg></div>
+                            <h3>Databases</h3>
+                        </div>
+                        <div class="skill-tags"><span class="skill-tag">MySQL</span><span
+                                class="skill-tag">PostgreSQL</span><span class="skill-tag">Oracle DB</span><span
+                                class="skill-tag">Elasticsearch</span></div>
+                    </div>
+                    <div class="skill-category">
+                        <div class="skill-category-header">
+                            <div class="skill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <circle cx="12" cy="12" r="3" />
+                                    <path
+                                        d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z" />
+                                </svg></div>
+                            <h3>DevOps & Tools</h3>
+                        </div>
+                        <div class="skill-tags"><span class="skill-tag">CI/CD</span><span
+                                class="skill-tag">Jenkins</span><span class="skill-tag">Git</span><span
+                                class="skill-tag">Terraform</span><span class="skill-tag">Agile</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section projects" id="projects">
+            <div class="container">
+                <h2 class="section-title"><span class="section-number">04.</span> Featured Projects</h2>
+                <div class="projects-grid">
+                    <article class="project-card featured">
+                        <div class="project-content">
+                            <p class="project-overline">Featured Project</p>
+                            <h3 class="project-title">Enterprise Leave Management Platform</h3>
+                            <div class="project-description">
+                                <p>Developed a web application, enabling admins to efficiently manage, approve, and
+                                    track leave requests for all the students and faculties.</p>
+                            </div>
+                            <ul class="project-tech">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                                <li>Python</li>
+                                <li>MySQL</li>
+                                <li>XAMPP</li>
+                            </ul>
+                            <div class="project-links">
+                                <a href="#" class="project-link" aria-label="GitHub"><svg viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2">
+                                        <path
+                                            d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+                                    </svg></a>
+                                <a href="#" class="project-link" aria-label="Live"><svg viewBox="0 0 24 24" fill="none"
+                                        stroke="currentColor" stroke-width="2">
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                                        <polyline points="15 3 21 3 21 9" />
+                                        <line x1="10" y1="14" x2="21" y2="3" />
+                                    </svg></a>
+                            </div>
+                        </div>
+                        <div class="project-image">
+                            <div class="project-image-placeholder"><svg viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="1">
+                                    <rect x="3" y="3" width="18" height="18" rx="2" />
+                                    <line x1="3" y1="9" x2="21" y2="9" />
+                                    <line x1="9" y1="21" x2="9" y2="9" />
+                                </svg></div>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <div class="project-content">
+                            <p class="project-overline">Infrastructure Automation</p>
+                            <h3 class="project-title">Server Fleet Automation Suite</h3>
+                            <div class="project-description">
+                                <p>Developed a comprehensive Python-based automation suite for managing 200+ Linux
+                                    servers. Automated patch management, configuration auditing, and compliance
+                                    reporting.</p>
+                            </div>
+                            <ul class="project-tech">
+                                <li>Python</li>
+                                <li>Bash</li>
+                                <li>Ansible</li>
+                                <li>Linux</li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <div class="project-content">
+                            <p class="project-overline">Monitoring & Observability</p>
+                            <h3 class="project-title">Centralized Logging Platform</h3>
+                            <div class="project-description">
+                                <p>Designed and implemented an Elasticsearch-based logging infrastructure aggregating
+                                    logs from distributed systems. Built custom dashboards reducing MTTR by 50%.</p>
+                            </div>
+                            <ul class="project-tech">
+                                <li>Elasticsearch</li>
+                                <li>Kibana</li>
+                                <li>Logstash</li>
+                                <li>Python</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section certifications" id="certifications">
+            <div class="container">
+                <h2 class="section-title"><span class="section-number">05.</span> Certifications</h2>
+                <div class="certs-grid">
+                    <div class="cert-card">
+                        <div class="cert-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <circle cx="12" cy="8" r="7" />
+                                <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88" />
+                            </svg></div>
+                        <h3>Certified DevOps Engineer Expert</h3>
+                        <p>Microsoft</p><span class="cert-status certified">Certified</span>
+                    </div>
+                    <div class="cert-card">
+                        <div class="cert-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <circle cx="12" cy="8" r="7" />
+                                <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88" />
+                            </svg></div>
+                        <h3>Certified Cloud Practitioner</h3>
+                        <p>Amazon Web Services</p><span class="cert-status certified">Certified</span>
+                    </div>
+                    <div class="cert-card">
+                        <div class="cert-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <circle cx="12" cy="8" r="7" />
+                                <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88" />
+                            </svg></div>
+                        <h3>Azure Administrator Associate</h3>
+                        <p>Microsoft</p><span class="cert-status certified">Certified</span>
+                    </div>
+                    <div class="cert-card">
+                        <div class="cert-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <circle cx="12" cy="8" r="7" />
+                                <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88" />
+                            </svg></div>
+                        <h3>Associate Cloud Engineer</h3>
+                        <p>Google Cloud</p><span class="cert-status certified">Certified</span>
+                    </div>
+                    <div class="cert-card">
+                        <div class="cert-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <circle cx="12" cy="8" r="7" />
+                                <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88" />
+                            </svg></div>
+                        <h3>Azure Fundamentals</h3>
+                        <p>Microsoft</p><span class="cert-status certified">Certified</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section contact" id="contact">
+            <div class="container">
+                <h2 class="section-title"><span class="section-number">06.</span> Get In Touch</h2>
+                <div class="contact-content">
+                    <h3 class="contact-heading">Let's Build Something Great Together</h3>
+                    <p class="contact-text">I'm always open to discussing new opportunities, challenging infrastructure
+                        problems, or ways to improve system reliability. Whether you're looking for an engineer to scale
+                        your platform or just want to connect, my inbox is always open.</p>
+                    <p class="contact-tagline">"Let's build scalable, resilient systems together."</p>
+                    <a href="mailto:puppalas18@gmail.com" class="btn btn-primary contact-btn">Say Hello</a>
+                    <div class="contact-social">
+                        <a href="https://github.com/Sisirapuppala" class="social-link" aria-label="GitHub"
+                            target="_blank"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path
+                                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+                            </svg></a>
+                        <a href="https://linkedin.com/in/puppala-sisira" class="social-link" aria-label="LinkedIn"
+                            target="_blank"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path
+                                    d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                                <rect x="2" y="9" width="4" height="12" />
+                                <circle cx="4" cy="4" r="2" />
+                            </svg></a>
+                        <a href="mailto:puppalas18@gmail.com" class="social-link" aria-label="Email"><svg
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                                <polyline points="22,6 12,13 2,6" />
+                            </svg></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p class="footer-credit">Designed & Built by <strong>Sisira Puppala</strong></p>
+            <p class="footer-tagline">Automating Today, Engineering Tomorrow</p>
+        </div>
+    </footer>
+
+    <div class="side-element left">
+        <ul class="social-list">
+            <li><a href="https://github.com/Sisirapuppala" target="_blank"><svg viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2">
+                        <path
+                            d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+                    </svg></a></li>
+            <li><a href="https://linkedin.com/in/puppala-sisira" target="_blank"><svg viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2">
+                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                        <rect x="2" y="9" width="4" height="12" />
+                        <circle cx="4" cy="4" r="2" />
+                    </svg></a></li>
+        </ul>
+    </div>
+    <div class="side-element right"><a href="mailto:puppalas18@gmail.com" class="email-link">puppalas18@gmail.com</a>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
